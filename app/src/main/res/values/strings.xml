@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name" translatable="false">Stock Hawk</string>
+
+    <string name="widget_title" translatable="false">Stock Hawk Widget</string>
+
+    <string name="pref_stocks_initialized_key" translatable="false">initialized</string>
+    <string name="pref_stocks_key" translatable="false">stocks</string>
+
+    <string name="pref_display_mode_key" translatable="false">displayMode</string>
+    <string name="pref_display_mode_default" translatable="false">@string/pref_display_mode_percentage_key</string>
+
+    <string name="pref_display_mode_absolute_key" translatable="false">absolute</string>
+    <string name="pref_display_mode_percentage_key" translatable="false">percentage</string>
+
+    <string name="default_stocks_yahoo" translatable="false">YHOO</string>
+    <string name="default_stocks_apple" translatable="false">AAPL</string>
+    <string name="default_stocks_microsoft" translatable="false">MSFT</string>
+    <string name="default_stocks_facebook" translatable="false">FB</string>
+
+    <string name="action_change_units" translatable="false">@string/pref_display_mode_key</string>
+
+    <string name="dialog_title">Add Stock</string>
+    <string name="dialog_hint">Symbol (e.g. GOOG)</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_add">Add</string>
+
+    <string name="error_no_network">No network connectivity! Will load the data when the network is available.</string>
+    <string name="error_no_stocks">No stocks added! Hit the floating action button to add one.</string>
+
+    <string name="toast_stock_added_no_connectivity">Symbol %s added. Will refresh when network available.</string>
+    <string name="toast_no_connectivity">Will refresh when network available.</string>
+    <string name="toast_stock_not_valid">Previous added Stock not valid!</string>
+    <string name="toast_add_stock_problem">problem in adding the stock!</string>
+    <string name="toast_removed_stock_not_valid">Removed not valid stock</string>
+
+    <string name="content_description_chart">History graph of stock price change</string>
+    <string name="content_description_add_stock_button">add stock button</string>
+    <string name="display_mode_percentage">Display mode percentage</string>
+    <string name="display_mode_absolute">Display mode absolute</string>
+
+    <string name="timber_stock_added" translatable="false">Stock added</string>
+    <string name="timber_stock_not_valid" translatable="false">Stock non valid</string>
+    <string name="timber_removed_not_valid_stock" translatable="false">Removed not valid Stock:</string>
+    <string name="timber_running_sync_job" translatable="false">Running sync job</string>
+    <string name="timber_intent_handled" translatable="false">Intent handled</string>
+    <string name="timber_error_fetch_quotes" translatable="false">Error fetching stock quotes</string>
+    <string name="timber_scheduling_task_periodic" translatable="false">Scheduling a periodic task</string>
+
+
+
+</resources>
